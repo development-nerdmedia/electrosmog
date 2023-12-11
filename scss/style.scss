@@ -1372,7 +1372,7 @@ section.bannerSpiro {
 section.tabs {
   background: linear-gradient(112deg, #33649b 12.97%, #15375e 76.18%);
   .container {
-    a {
+    a, button {
       color: #fff;
       font-family: var(--fuente-bai-jamjuree);
       font-size: 25px;
@@ -2711,6 +2711,15 @@ section.mainContacto {
       grid-gap: 17px;
       justify-content: center;
     }
+  }
+}
+
+section.productos{
+  padding: 100px 0;
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
   }
 }
 
